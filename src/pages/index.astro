@@ -6,10 +6,12 @@ import { Picture } from '@astrojs/image/components'
 
 <Layout title="Nico's Fresh Salsa">
   <Picture src={Banner} widths={[400, 600, 1200]} aspectRatio={2.65} alt="Astro Logo" />
-  <div class="text-center text-xl md:text-3xl text-gray-600 pt-4">
+  <div class="text-center text-xl md:text-3xl text-gray-600 pt-4 px-4">
     Elevate any occasion with our salsa, transforming any dish into a fiesta of flavor!
   </div>
-  <div class="text-center text-xl md:text-3xl text-gray-600 py-4">Place your orders today!</div>
+  <div class="text-center text-xl md:text-3xl text-gray-600 py-4 px-4">
+    Place your orders today!
+  </div>
   <div class="flex flex-col gap-4 w-[300px] mx-auto pb-4 py-2">
     <a
       href="https://www.instagram.com/nicosfresh"
@@ -60,7 +62,6 @@ import { Picture } from '@astrojs/image/components'
     <a
       href="tel:8017504026"
       class="flex items-center gap-4 border p-2 rounded-md hover:bg-gray-100"
-      target="_blank"
     >
       <div class="w-8 m-1">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
@@ -82,7 +83,6 @@ import { Picture } from '@astrojs/image/components'
     <a
       href="mailto:nicosfreshsalsa@gmail.com"
       class="flex items-center gap-4 border p-2 rounded-md hover:bg-gray-100"
-      target="_blank"
     >
       <div class="w-8 m-1">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
