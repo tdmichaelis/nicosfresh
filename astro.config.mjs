@@ -5,7 +5,6 @@ import tailwind from '@astrojs/tailwind'
 // https://astro.build/config
 export default defineConfig({
   site: 'https://tdmichaelis.github.io',
-  base: '/nicosfresh',
   integrations: [
     tailwind(),
     image({
